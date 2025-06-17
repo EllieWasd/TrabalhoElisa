@@ -1,10 +1,14 @@
 using UnityEngine;
 
-public class Personagem
+public class Personagem : MonoBehaviour
 {
+    [SerializeField]
     private string nome;
+    [SerializeField]
     private int nivel;
+    [SerializeField]
     private int vida;
+    [SerializeField]
     private int forca;
     
     public Personagem(string nome, int nivel, int vida, int forca)
