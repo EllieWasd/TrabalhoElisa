@@ -5,7 +5,7 @@ public class TestePersonagem : MonoBehaviour
     void Start()
     {
         // Criando um personagem genérico
-        Personagem generico = new Personagem("João Paulo", 2, 50, 10);
+        Personagem generico = new Personagem("João Paulo", 6, 200, 20);
 
         // Criando um guerreiro
         Guerreiro guerreiro = new Guerreiro("Brutus Grandalhão grandão", 5, 120, 18);
